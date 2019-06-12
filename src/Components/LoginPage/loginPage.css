@@ -1,0 +1,74 @@
+.formContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.loginForm {
+    width: 428px;
+    height: 350px;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+.loginInput {
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border: none;
+
+}
+.error {
+    color: #EF767A;
+    font-size: 14px;
+}
+.buttonContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 300px;
+    justify-content: space-between;
+}
+.btn-submit {
+    width: 140px;
+    height: 60px;
+    background-color: #49DCB1;
+    border: none;
+    color: white;
+}
+.btn-submit:hover{
+    background-color: #40cfa7;
+}
+.btn-submit.disabled {
+    color: #8b8b8b;
+    background-color: #cdcdcd;
+}
+.hint {
+    font-size: 9px;
+    font-family: Verdana;
+    color: #8b8b8b;
+    text-align: center;
+}
+
+@media screen and (max-width: 870px) {
+    .loginForm {
+        width: auto;
+        box-shadow: none;
+        margin-top: 10px;
+    }
+    .loginInput {
+        width: 190px;
+        height: 50px;
+    }
+    .buttonContainer {
+        flex-flow: column wrap;
+        width: 190px;
+        height: 90px;
+    }
+    .btn-submit {
+        width: auto;
+        height: 40px;
+    }
+}

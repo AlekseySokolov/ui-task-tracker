@@ -1,0 +1,177 @@
+.taskContainer{
+    width: 600px;
+    padding: 60px;
+    display: flex;
+    align-self: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-family: Verdana;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.header {
+    width: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.userName {
+    font-size: 20px;
+}
+.goOut {
+    width: 120px;
+    height: 30px;
+    background-color: #ff3c6c;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.goOut:hover {
+    background-color: #ff245c;
+}
+.table {
+    display: flex;
+}
+.taskListTitle {
+    font-weight: bold;
+}
+.taskList{
+    list-style: none;
+    padding: 0;
+    margin: 25px;
+}
+.task {
+    margin-top: 20px;
+    font-size: 14px;
+    color: slategrey;
+    cursor: pointer;
+}
+.task:hover {
+    color: #212121;
+}
+.taskDone {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #34cc4b;
+    cursor: pointer;
+}
+.taskDone:hover {
+    color: #159d13;
+}
+
+.btnTaskListContainer {
+    width: 300px;
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.btnSortByDone {
+    margin: 1px;
+    width: 120px;
+    height: 30px;
+    background-color: #66b445;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btnSortByDone:hover {
+    background-color: #31a420;
+}
+.btnSortByPerformed {
+    margin: 1px;
+    width: 120px;
+    height: 30px;
+    background-color: #acacac;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btnSortByPerformed:hover {
+    background-color: #7b7b7b;
+}
+.btnSwitchView {
+    margin: 1px;
+    width: 120px;
+    height: 30px;
+    background-color: #6ed1ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btnSwitchView:hover{
+    background-color: #46bcff;
+}
+.taskDetailsPageContainer{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.detailTask {
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    list-style: none;
+    text-align: left;
+
+}
+.detailTask > li {
+    margin: 8px;
+}
+.taskDefaultText{
+    font-size: 16px;
+    color: #7b7b7b;
+}
+.TaskTitle {
+    font-size: 22px;
+    font-weight: bold;
+    color: #212121;
+}
+.low {
+    color: #767676;
+    font-weight: bold;
+}
+.high {
+    color: #ff493b;
+    font-weight: bold;
+}
+.done {
+    color: #35b449;
+    font-weight: bold;
+}
+.performed {
+    color: #444444;
+    font-weight: bold;
+}
+.goBack {
+    width: 120px;
+    height: 30px;
+    background-color: #49DCB1;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.goBack:hover {
+    background-color: #40cfa7;
+}
+
+@media screen and (max-width: 800px) {
+    .taskContainer{
+        width: inherit;
+        padding: 30px 10px 30px 10px;
+    }
+    .table {
+        font-size: 12px;
+    }
+    .taskList{
+    }
+    .taskList > li {
+        font-size: 10px;
+        margin: 15px;
+    }
+
+}
