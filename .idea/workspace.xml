@@ -2,54 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="458f65ab-5e17-43c7-b24f-6e5ef6688f79" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LoginPage/LoginPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LoginPage/formComponents/FormButtons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LoginPage/formComponents/renderField.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LoginPage/formComponents/userValid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LoginPage/formComponents/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LoginPage/formRoute/PrivateLoginPageRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LoginPage/loginPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/displayOptions/ListDisplay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/displayOptions/TaskList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/displayOptions/taskListContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/displayOptions/view/DetailTaskList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/displayOptions/view/ShortTaskList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/displayOptions/view/SortButtons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/displayOptions/view/TaskDetailsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/secondaryFunctions/classNamesFunctions/classNames.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/secondaryFunctions/currentUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/secondaryFunctions/dateFunctions/calculatePastDays.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/secondaryFunctions/dateFunctions/toLocalDate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/secondaryFunctions/goOut.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/secondaryFunctions/sortFunctions/sortByStatusDone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/secondaryFunctions/sortFunctions/sortByStatusPerformed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/PrivatePageWithTasksRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PageWithTasks/pageWithTask.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/dataRequest/dataRequest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/dataRequest/firstDataRequest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/dataRequest/updateObjPerson.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/dataReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/loginReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/personReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/taskDetailReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/taskMappingReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -141,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginPage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/LoginPage/LoginPage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="363">
@@ -153,20 +106,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="store.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/store/store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="loginPage.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/LoginPage/loginPage.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="497">
               <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="updateObjPerson.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/dataRequest/updateObjPerson.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -226,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/Components/TaskDetailsPage/TaskDetailsPage.js" />
         <option value="$PROJECT_DIR$/src/reducers/taskMappingReducer.js" />
         <option value="$PROJECT_DIR$/src/reducers/taskDetailReducer.js" />
-        <option value="$PROJECT_DIR$/src/store/store.js" />
         <option value="$PROJECT_DIR$/src/actions/actions.js" />
         <option value="$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/Header.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
@@ -247,6 +202,7 @@
         <option value="$PROJECT_DIR$/public/data.json" />
         <option value="$PROJECT_DIR$/src/Components/LoginPage/loginPage.css" />
         <option value="$PROJECT_DIR$/src/Components/LoginPage/LoginPage.js" />
+        <option value="$PROJECT_DIR$/src/store/store.js" />
       </list>
     </option>
   </component>
@@ -266,7 +222,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -287,25 +243,13 @@
             <path>
               <item name="ui-task-tracker" type="b2602c69:ProjectViewProjectNode" />
               <item name="ui-task-tracker" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ui-task-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui-task-tracker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ui-task-tracker" type="b2602c69:ProjectViewProjectNode" />
               <item name="ui-task-tracker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ui-task-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui-task-tracker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginPage" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,12 +312,12 @@
       <workItem from="1560243854783" duration="21088000" />
       <workItem from="1560268788803" duration="16132000" />
       <workItem from="1560324303945" duration="13031000" />
-      <workItem from="1560340699825" duration="9526000" />
+      <workItem from="1560340699825" duration="10138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133071000" />
+    <option name="totallyTimeSpent" value="133683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -432,16 +376,6 @@
     <entry file="file://$PROJECT_DIR$/src/Components/PageWithTasks/PageWithTasksComponents/secondaryFunctions/test.js" />
     <entry file="file://$PROJECT_DIR$/public/favicon.ico">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -753,6 +687,16 @@
           <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
