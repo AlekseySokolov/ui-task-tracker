@@ -7,6 +7,6 @@
 Форма ввода username & password [Redux-form](https://github.com/erikras/redux-form)<br/>
 Отображение данных из API [axios](https://github.com/axios/axios)<br/>
 <br/>
-### `username и password находятся в нижней части формы` <br/>
+** `username и password находятся в нижней части формы`** <br/>
 
 [Demo in CodeSandBox](https://codesandbox.io/s/ui-task-tracker-0ol4z)
