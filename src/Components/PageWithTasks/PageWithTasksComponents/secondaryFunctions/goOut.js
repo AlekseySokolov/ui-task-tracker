@@ -1,5 +1,5 @@
-const goOut = (logout, removePerson) => {
-    return () => logout() && removePerson()
+const goOut = (logout) => {
+    return () => logout()
 }
 
 export default goOut;

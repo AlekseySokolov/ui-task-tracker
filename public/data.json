@@ -1,11 +1,13 @@
 {
   "users": [
     {
+      "id" : 0,
       "name" : "Tom Sawyer",
       "username" : "Tom",
       "password" : "mark",
       "quests" : [
         {
+          "id" : 0,
           "title" : "Sawyer Test task1",
           "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
           "date" : "2019-06-05",
@@ -16,6 +18,7 @@
 
         },
         {
+          "id" : 1,
           "title" : "Sawyer Test task2",
           "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
           "date" : "2019-06-10",
@@ -26,6 +29,7 @@
 
         },
         {
+          "id" : 2,
           "title" : "Sawyer Test task3",
           "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
           "date" : "2019-06-07",
@@ -38,11 +42,13 @@
       ]
     },
     {
+      "id" : 1,
       "name" : "Bruce Wayne",
       "username" : "Bruce",
       "password" : "gotham",
       "quests" : [
         {
+          "id" : 0,
           "title" : "Bruce Test task",
           "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
           "date" : "2019-06-05",
@@ -53,6 +59,7 @@
 
         },
         {
+          "id" : 1,
           "title" : "Bruce Test task2",
           "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
           "date" : "2019-06-10",
@@ -63,6 +70,7 @@
 
         },
         {
+          "id" : 2,
           "title" : "Bruce Test task3",
           "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
           "date" : "2019-06-07",
@@ -75,11 +83,13 @@
       ]
     },
     {
+      "id" : 2,
       "name" : "Tyrion Lannister",
       "username" : "Tyrion",
       "password" : "Jaime",
       "quests" : [
         {
+          "id" : 0,
           "title" : "Tyrion Test task1",
           "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
           "date" : "2019-06-05",
@@ -90,6 +100,7 @@
 
         },
         {
+          "id" : 1,
           "title" : "Tyrion Test task2",
           "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
           "date" : "2019-06-10",
@@ -100,6 +111,7 @@
 
         },
         {
+          "id" : 2,
           "title" : "Tyrion Test task3",
           "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
           "date" : "2019-06-07",

@@ -1,7 +1,8 @@
 import React from 'react';
-import ShortTaskList from './view/ShortTaskList';
+import ShortTaskList from './view/ShortTaskList/ShortTaskList';
 import DetailTaskList from './view/DetailTaskList';
 import TaskDetailsPage from './view/TaskDetailsPage';
+import CardList from './view/ScrumTable/displayOptionsForScrumTable/DND/CardList';
 
 const TaskList = (props) => {
     const {taskMappingState, taskDetailState} = props;
@@ -16,6 +17,10 @@ const TaskList = (props) => {
              task={taskDetailState}
              {...props}
             /> :
+            taskMappingState === 'scrum' ?
+             <CardList
+             {...props}
+             />:
             null
     )
 };

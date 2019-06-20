@@ -5,14 +5,17 @@ class DataRequest extends Component {
     loadData() {
         axios.get("data.json")
             .then(res => {
-                return this.props.getData(res.data["users"])
+             const test = (res.data["users"])
+                 .filter(obj => obj.username === this.props.name)
+                 .reduce((acc, value) => value ,{})
+                  return this.props.getData(test)
             })
     }
     componentDidMount() {
         this.loadData();
         this.interval = setInterval(() => {
             this.loadData();
-        }, 1000);
+        }, 90000);
     }
 
     componentWillUnmount() {

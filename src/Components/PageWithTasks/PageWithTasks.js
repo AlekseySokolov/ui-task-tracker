@@ -1,12 +1,10 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import * as actions from '../../actions/actions';
-import Header from './PageWithTasksComponents/Header';
+import Header from './PageWithTasksComponents/Header/Header';
 import TaskList from './PageWithTasksComponents/displayOptions/TaskList';
 import DataRequest from '../dataRequest/dataRequest';
-import currentUser from './PageWithTasksComponents/secondaryFunctions/currentUser';
 import './pageWithTask.css';
-import UpdateObjPerson from '../dataRequest/updateObjPerson';
 
 const PageWithTasks = (props) => {
     const {
@@ -14,27 +12,28 @@ const PageWithTasks = (props) => {
         personState,
         taskMappingState,
         taskDetailState,
-        getData,
-        sortByStatus,
-        getPerson} = props;
+        addTaskFormState,
+        getData} = props;
 
-    const currentUserInData = currentUser(dataState, personState);
     return (
          <div className='taskContainer'>
           <DataRequest
               getData={getData}
+              name={dataState.username}
           />
-          <UpdateObjPerson
-              getPerson={getPerson}
-              data={currentUserInData}
-          />
-          <Header user={personState} {...props}/>
+          <Header
+              user={dataState}
+              dataState={dataState}
+              personState={personState}
+              {...props}/>
          <TaskList
              taskMappingState={taskMappingState}
-             user={personState}
-             personState={personState}
+             addTaskFormState={addTaskFormState}
+             user={dataState}
              taskDetailState={taskDetailState}
-             sortByStatus={sortByStatus}
+             dataState={dataState}
+             id={dataState.quests.title}
+             tasks={dataState['quests']}
              {...props}
          />
          </div>
@@ -43,10 +42,11 @@ const PageWithTasks = (props) => {
 
 const mapStateToProps = (state) => {
     return {
-        personState: state.personState,
         dataState: state.dataState,
+        personState : state.personState,
         taskMappingState : state.taskMappingState,
-        taskDetailState : state.taskDetailState
+        taskDetailState : state.taskDetailState,
+        addTaskFormState: state.addTaskFormState
     }
 }
 

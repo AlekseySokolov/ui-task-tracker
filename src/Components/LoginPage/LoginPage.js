@@ -9,19 +9,23 @@ import './loginPage.css';
 import userValid from './formComponents/userValid';
 import FirstDataRequest from '../dataRequest/firstDataRequest';
 
+
 const LoginPage = (props) => {
     const {
         getData,
-        dataState,
         getPerson,
+        dataState,
         login,
         handleSubmit} = props;
 
-    const submit = (values) => userValid(values, dataState, getPerson, login);
+    const submit = (values) =>
+        userValid(values, dataState, getData, login, getPerson);
     return (
         <div className='formContainer'>
             <FirstDataRequest getData={getData}/>
-            <form onSubmit={handleSubmit(submit)} className='loginForm'>
+            <form
+                onSubmit={handleSubmit(submit)}
+                className='loginForm'>
                 <Field
                     name="username"
                     component={renderField}
@@ -48,6 +52,7 @@ const LoginPage = (props) => {
 const mapStateToProps = (state) => {
     return {
         loginState: state.loginState,
+        personState : state.personState,
         dataState : state.dataState
     }
 }

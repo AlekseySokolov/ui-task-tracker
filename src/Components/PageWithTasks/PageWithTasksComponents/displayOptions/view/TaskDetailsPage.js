@@ -18,7 +18,11 @@ const TaskDetailsPage = (props) => {
              <li className='taskDefaultText'>Days left: {task["planned days"] - calculatePastDays(date)}</li>
              <li className={statusClass(status)}>Status: {status}</li>
          </ul>
-         <button className='goBack' onClick={() => showBrief() && removeQuestDetail()}>← Go Back</button>
+         <button
+             className='goBack'
+             onClick={() => showBrief() && removeQuestDetail()}>
+             ← Go Back
+         </button>
         </div>
     )
 }

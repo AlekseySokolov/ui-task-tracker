@@ -1,21 +1,51 @@
 import React from 'react';
-import sortByStatusPerformed from "../../secondaryFunctions/sortFunctions/sortByStatusPerformed";
-import sortByStatusDone from "../../secondaryFunctions/sortFunctions/sortByStatusDone";
 
 const SortButtons = (props) => {
-    const {user, sortByStatus} = props
+    const {
+        dataState,
+        taskMappingState,
+        sortStatusDoneUp,
+        sortStatusPerformedUp,
+        sortImportanceLowUp,
+        sortNewDatesUp,
+        sortOldDatesUp,
+        sortImportanceHighUp} = props
     return (
         <>
             <button
-             className='btnSortByDone'
-             onClick={() => sortByStatus(sortByStatusDone(user))}>
-                Done ↑
+             className='btnSortStatus'
+             onClick={() => sortStatusDoneUp(dataState)}>
+                Done on top
             </button>
             <button
-             className='btnSortByPerformed'
-             onClick={() => sortByStatus(sortByStatusPerformed(user))}>
-                Performed ↑
+                className='btnSortStatus'
+                onClick={() => sortStatusPerformedUp(dataState)}>
+                Performed on top
             </button>
+            {taskMappingState === 'detail' ?
+                <>
+                    <button
+                        className='btnSortDates'
+                        onClick={() => sortNewDatesUp(dataState)}>
+                        newDates on top
+                    </button>
+                    <button
+                        className='btnSortDates'
+                        onClick={() => sortOldDatesUp(dataState)}>
+                        oldDates on top
+                    </button>
+                <button
+                    className='btnSortImportance'
+                    onClick={() => sortImportanceLowUp(dataState)}>
+                    Low on top
+                </button>
+                <button
+                    className='btnSortImportance'
+                    onClick={() => sortImportanceHighUp(dataState)}>
+                    High on top
+                </button>
+                 </>
+                : null}
         </>
     )
 }

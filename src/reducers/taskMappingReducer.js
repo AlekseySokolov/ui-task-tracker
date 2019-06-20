@@ -6,6 +6,8 @@ const taskMappingReducer = (state = initialValue, action) => {
             return state = initialValue
         case 'SHOW_DETAIL' :
             return state = 'detail'
+        case 'SHOW_SCRUM' :
+            return state = 'scrum'
         case 'SHOW_TASK_IN_DETAIL' :
             return state = 'taskDetail'
         default :

@@ -17,7 +17,11 @@ const DetailTaskList = (props) => {
             </div>
             <div className='btnTaskListContainer'>
                 <SortButtons {...props} />
-                <button className='btnSwitchView' onClick={() => showBrief()}>briefly</button>
+                <button
+                    className='btnSwitchView'
+                    onClick={() => showBrief()}>
+                    briefly
+                </button>
             </div>
         </>
     )

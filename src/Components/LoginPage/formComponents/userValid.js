@@ -1,8 +1,8 @@
-const userValid = (values, dataState, getPerson ,login) => {
+const userValid = (values, dataState, getData ,login, getPerson) => {
     if(dataState.some(obj => {
         return obj.username === values.username &&
                obj.password === values.password ?
-               getPerson(obj) :
+               getData(obj) && getPerson(obj) :
                null;
     })){
       return login();
@@ -12,3 +12,5 @@ const userValid = (values, dataState, getPerson ,login) => {
 
 }
 export default userValid;
+
+

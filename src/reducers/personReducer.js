@@ -1,14 +1,12 @@
 const personReducer = (state = {}, action) => {
     switch (action.type) {
-        case "GET_PERSON" :
+        case 'GET_PERSON' :
             return state = action.payload
-        case "REMOVE_PERSON" :
-            return state = {}
-        case "SORT_PERSON_VALUES" :
+        case 'REMOVE_PERSON' :
             return state = action.payload
         default :
             return state
     }
-}
+};
 
 export default personReducer;

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch } from "react-router";
+import {Switch} from "react-router";
 import './App.css';
 import LoginPage from './Components/LoginPage/LoginPage';
 import PrivateLoginPageRoute from './Components/LoginPage/formRoute/PrivateLoginPageRoute';
