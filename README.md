@@ -9,4 +9,4 @@
 <br/>
  `username и password находятся в нижней части формы`<br/>
 
-[Demo in CodeSandBox](https://codesandbox.io/s/ui-task-tracker-4dzqj)
+[Demo in CodeSandBox](https://codesandbox.io/s/github/AlekseySokolov/ui-task-tracker)
